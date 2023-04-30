@@ -73,7 +73,6 @@ export default function Weather(props) {
     );
   } else {
     const apiKey = "6f1d1c18d89a47a9c5b40c3088267bf6";
-    let city = "New York";
     let apiURL = `https://api.openweathermap.org/data/2.5/weather?q=${props.defaultCity}&appid=${apiKey}&units=metric`;
     axios.get(apiURL).then(handleResponse);
 
