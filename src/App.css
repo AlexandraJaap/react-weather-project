@@ -1,9 +1,19 @@
 .App {
   max-width: 600px;
-  margin: 30px auto;
+  margin: 200px auto;
+  border-radius: 8px;
+  background-image: url("https://i.pinimg.com/originals/e0/79/fa/e079fadc485879f023bb1a473f010ac2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 10px 13px 19px 6px #f18423;
 }
 
 .App footer {
-  font-size: 11px;
+  font-size: 12px;
   margin: 10px 0;
+  color: #8fef8e;
+}
+
+.App footer a {
+  color: #f18423;
 }
